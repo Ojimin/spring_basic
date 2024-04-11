@@ -16,8 +16,8 @@ import org.springframework.context.annotation.FilterType;
 public class AutoAppConfig {
 
     //수동빈 vs 자동빈
-    @Bean(name = "memoryMemberRepository")
-    public MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    public MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
